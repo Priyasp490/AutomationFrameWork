@@ -7,6 +7,7 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class FetchingDataFromPDF {
 
 	public static void main(String[] args) throws Throwable {
+		//push
 		//pull back
 		File fis=new File(".//src/test/resources/multipage-pdf.pdf");
 		PDDocument doc=PDDocument.load(fis);
